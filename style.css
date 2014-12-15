@@ -1,0 +1,17 @@
+ul { list-style: none; }
+#navcontainer { height: 64px; background: #202020 ;  position:relative; border-radius:0px; width:auto;padding-bottom:0px;}
+.navigationbar { position: absolute; left: 20px;  font-size:14px; padding-top:-10px;}
+.navigationbar li {  font-size: 1.2em; float: left; }
+.navigationbar  a {  line-height: 50px; color: silver; font-weight: bold; text-decoration: none; padding: 0 10px; }
+.navigationbar  li:hover #vernonlist { display: block; position: absolute; }
+#vernonlist { background: #fff; font-size:14px; display: none; position: absolute; padding-top: 0px; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.5); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5); }
+#vernonlist .listitems {  }
+#vernonlist .listitems li { font-size: 1.0em;  background: #fff;}
+#vernonlist .listitems li a { display: block; line-height: 2.3em;padding-left:15px; color: black; width: 150px; margin-right: 35px;  }
+#vernonlist .listitems li { display: block; line-height: 2.3em;padding-left:25px; color: black; width: 150px; margin-right: 35px;  }
+#vernonlist .listitems li a:hover { background-color:rgb(189,183,107);  color: white;  padding-left:15px;}
+#vernonlistlink:hover {background-color:rgb(189,183,107); }
+#vernonlistlink:hover a { color: white;  }
+#vernonlist {height:320px;-webkit-column-count:3; /* Safari and Chrome */}
+body{background-color:rgb(189,183,107);}
+#contentandnavdiv{background-color:#F8F8F8 ; margin-right:90px;margin-left:90px;}
